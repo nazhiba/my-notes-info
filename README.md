@@ -14,6 +14,8 @@ ini adalah note saya mengenai semua eror yang pernah saya alami
 
 ```youtube adbock problem```
 <h6>solved</h6>
-<a href="https://www.tampermonkey.net/index.php?version=4.19.0&ext=iikm&updated=true">tampermonkey</a>```ekstension```
+<a href="https://www.tampermonkey.net/index.php?version=4.19.0&ext=iikm&updated=true">tampermonkey</a>
+```ekstension```
 <br>
-<a href="https://github.com/TheRealJoelmatic/RemoveAdblockThing">github</a>```install .js```
+<a href="https://github.com/TheRealJoelmatic/RemoveAdblockThing">github</a>
+```install .js```
