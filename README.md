@@ -19,7 +19,7 @@ ini adalah note saya mengenai semua eror yang pernah saya alami
 <a href="https://github.com/TheRealJoelmatic/RemoveAdblockThing/releases/tag/v8">github</a> click  javacript file and  click install button
 <br>
 <h6>alternative</h6>
-```https://yewtu.be```
+<a href="https://yewtu.be">YEWTU</a>
 
 
 <h3>25 October 2023</h3>
