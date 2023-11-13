@@ -33,3 +33,16 @@ ini adalah note saya mengenai semua eror yang pernah saya alami
 <br>
 ```pip install Pillow==9.5.0```
 <br>
+
+
+<h3>13 November 2023</h3>
+<h6>problem</h6>
+
+``` -_- ```
+
+<h6>solved</h6>
+
+```Eror```
+<br>
+```Eror```
+<br>
