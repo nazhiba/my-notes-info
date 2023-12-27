@@ -46,3 +46,16 @@ ini adalah note saya mengenai semua eror yang pernah saya alami
 <br>
 ```Eror```
 <br>
+
+
+<h3>27 Desember 2023</h3>
+<h6>problem</h6>
+
+```AttributeError: module 'httpcore' has no attribute 'SyncHTTPTransport```
+
+<h6>solved</h6>
+
+```pip install httpcore==0.15.0 httpx pymongo googletrans```
+<br>
+
+
