@@ -59,3 +59,15 @@ ini adalah note saya mengenai semua eror yang pernah saya alami
 <br>
 
 
+<h3>12 Januari 2023</h3>
+<h6>problem</h6>
+<h6 style="color:blue">Windows 11</h6>
+```Git problem core.logallrefupdates=true : [END]```
+
+<h6>solved</h6>
+
+```type :q```
+<br>
+
+
+
