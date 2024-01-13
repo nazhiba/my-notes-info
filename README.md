@@ -71,4 +71,17 @@ type```:q```
 <br>
 
 
+<h3>13 Januari 2023</h3>
+<h6>problem</h6>
+<h6>Install gh(github CLI)</h6>
+
+``` make repository from Command Prompt ```
+
+<h6>solved</h6>
+
+```run windows cmd as administrator```
+type```choco install gh```
+<br>
+
+
 
