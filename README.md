@@ -59,7 +59,7 @@ ini adalah note saya mengenai semua eror yang pernah saya alami
 <br>
 
 
-<h3>12 Januari 2023</h3>
+<h3>12 Januari 2024</h3>
 <h6>problem</h6>
 <h6>Windows 11 CMD git</h6>
 
@@ -71,7 +71,7 @@ type```:q```
 <br>
 
 
-<h3>13 Januari 2023</h3>
+<h3>13 Januari 2024</h3>
 <h6>problem</h6>
 <h6>Install gh(github CLI)</h6>
 
@@ -82,6 +82,22 @@ type```:q```
 ```run windows cmd as administrator```
 type```choco install gh```
 <br>
+
+
+<h3>16 Januari 2024</h3>
+<h6>problem</h6>
+
+``` AttributeError: 'NoneType' object has no attribute 'groups'```
+
+<h6>solved</h6>
+
+```Debian linux in VPS```
+type```pip uninstall gdown```
+type```pip install gdown==4.6.1```
+<br>
+
+
+
 
 
 
