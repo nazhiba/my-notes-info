@@ -92,8 +92,30 @@ type```choco install gh```
 <h6>solved</h6>
 
 ```Debian linux in VPS```
-type```pip uninstall gdown```
+type```pip uninstall gdown```<br>
 type```pip install gdown==4.6.1```
+<br>
+<h3>16 Januari 2024</h3>
+<h6>problem</h6>
+
+```2024/01/16 20:40:27 Fatal error: failed to mount FUSE fs: mount stopped before calling Init: mount failed: cgofuse: cannot find winfsp```
+
+<h6>solved</h6>
+
+```Windows 11```
+type```choco install winfsp```
+<br>
+<h3>16 Januari 2024</h3>
+<h6>problem</h6>
+
+```login google VPS with windows 11```
+
+<h6>solved</h6>
+
+```VPS to Windows 11```
+type```ssh -L 53682:localhost:53682 -C -N -l <your_user> <your_remote_server_ip>```
+<br>
+paste link google login from VPS to Windows 11
 <br>
 
 
