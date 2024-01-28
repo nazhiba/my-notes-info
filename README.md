@@ -129,10 +129,6 @@ paste link google login from VPS to Windows 11
 type```!pip install nohup```
 type```!nohup pip install selenium &```
 <br>
-paste link google login from VPS to Windows 11
-<br>
-
-
 
 
 
