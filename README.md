@@ -118,6 +118,20 @@ type```ssh -L 53682:localhost:53682 -C -N -l <your_user> <your_remote_server_ip>
 paste link google login from VPS to Windows 11
 <br>
 
+<br>
+<h3>28 Januari 2024</h3>
+<h6>problem</h6>
+
+```Install package linux in background (GOOGLE COLAB)```
+
+<h6>solved</h6>
+
+type```!pip install nohup```
+type```!nohup pip install selenium &```
+<br>
+paste link google login from VPS to Windows 11
+<br>
+
 
 
 
