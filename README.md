@@ -140,6 +140,18 @@ type```!nohup pip install selenium &```
 <a href="https://play.kotlinlang.org">KOTLIN CLOUD</a>
 <br>
 
+<br>
+<h3>21 Februari 2024</h3>
+<h6>problem</h6>
+<p>saat ingin menggunakan venv biasanya kita perlu melakukan activate di terminal, dengan adanya python intrepeter kita tidak perlu lagi melakukannya lewat terminal dan bisa langsung lewat Vscode</p>
+
+```Python intrepeter```
+
+<h6>solved</h6>
+```
+
+<br>
+
 
 
 
