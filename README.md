@@ -176,7 +176,7 @@ Node.js v18.17.1
 ```
 
 <h6>solved</h6>
-```Hilangkan tanda & dan simbol lainnya termasuk ' '(spasi) ```
+```Hilangkan tanda & dan simbol lainnya termasuk ' '(spasi) untuk folder threejs-nya```
 
 <br>
 
