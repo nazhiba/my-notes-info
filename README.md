@@ -176,7 +176,7 @@ Node.js v18.17.1
 ```
 
 <h6>solved</h6>
-```belum tau```
+```Hilangkan tanda & dan simbol lainnya termasuk ' '(spasi) ```
 
 <br>
 
