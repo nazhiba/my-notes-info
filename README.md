@@ -179,6 +179,24 @@ Node.js v18.17.1
 ```Hilangkan tanda & dan simbol lainnya termasuk ' '(spasi) ```
 
 <br>
+<h3>7 April 2024</h3>
+<h6>problem</h6>
+
+```
+sudo nmap -sS 10.129.57.162
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-04-07 20:00 WIB
+Nmap scan report for 10.129.57.162
+Host is up (0.29s latency).
+All 1000 scanned ports on 10.129.57.162 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 1 IP address (1 host up) scanned in 19.74 seconds
+```
+
+<h6>solved</h6>
+```Masih Eror:🛐```
+
+<br>
 
 
 
