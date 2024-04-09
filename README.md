@@ -200,4 +200,20 @@ Nmap done: 1 IP address (1 host up) scanned in 19.74 seconds
 
 
 
+<h3>9 April 2024</h3>
+<h6>problem</h6>
+
+Saya ingin menghubungkan 2 jaringan openVPN dari Hackthebox dan TryhackMe. untuk itu saya memerlukan 2 port, dikarenakan port 1 sudah ada maka sekarang saya perlu membuat port yang ke-dua 
+
+<h6>solved</h6>
+
+open Terminal
+
+> ```ip a```
+> ```gajadi co udh bisa otomatis awokawok```
+
+<br>
+
+
+
 
