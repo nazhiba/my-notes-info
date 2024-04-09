@@ -210,7 +210,8 @@ Saya ingin menghubungkan 2 jaringan openVPN dari Hackthebox dan TryhackMe. untuk
 open Terminal
 
 > ```ip a```
-> ```gajadi co udh bisa otomatis awokawok```
+
+> ```gajadi udh bisa otomatis wkwk💀🗿```
 
 <br>
 
