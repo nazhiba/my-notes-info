@@ -225,11 +225,11 @@ open Terminal
 
 > ```sudo openvpn /mnt/d/download/openvpn2.ovpn &``` Fungsi & disini agar scrip dijalankan di background, anda bisa mencobanya dengan dengan menghilangkan & untuk melihat perbedaannya
 
-> tekan CTRL+X lalu Y
+- tekan CTRL+X lalu Y
 
-> ketikkan ```source ~/.bashrc```
+- ketikkan ```source ~/.bashrc```
 
-> jika sudah ada tulisan ```sucessfully``` maka sudah selesai anda dapat tekan tombol Enter(ini adalah letak perbedaan jika anda menggunakan & dan tidak) 
+- jika sudah ada tulisan ```sucessfully``` maka sudah selesai anda dapat tekan tombol Enter(ini adalah letak perbedaan jika anda menggunakan & dan tidak) 
 <br>
 
 
