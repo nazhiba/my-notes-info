@@ -213,6 +213,23 @@ open Terminal
 
 > ```gajadi udh bisa otomatis wkwk💀🗿```
 
+ #### Update 10 April 2024
+
+- Lakukan konfigurasi sebagai berikut untuk membuatnya menjadi otomatis =
+
+> ```nano ~/.bashrc``` ini adalah file yang selalu dieksekusi ketika user masuk di LINUX  
+
+- scroll ke bawah dan tambahkan ini
+
+> ```sudo openvpn /mnt/d/download/openvpn1.ovpn &```
+
+> ```sudo openvpn /mnt/d/download/openvpn2.ovpn &``` Fungsi & disini agar scrip dijalankan di background, anda bisa mencobanya dengan dengan menghilangkan & untuk melihat perbedaannya
+
+> tekan CTRL+X lalu Y
+
+> ketikkan ```source ~/.bashrc```
+
+> jika sudah ada tulisan ```sucessfully``` maka sudah selesai anda dapat tekan tombol Enter(ini adalah letak perbedaan jika anda menggunakan & dan tidak) 
 <br>
 
 
