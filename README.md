@@ -250,6 +250,9 @@ Melihat proses selenium yang berada di Docker
 > ```docker run -d -p 4444:4444 -p 5900:5900 --shm-size="2g" selenium/standalone-firefox:4.20.0-20240505``` 
 
 > Buka VNC Viewer
-> Buka IP localhost(```172.0.0.1```):tambahkan port sesuai yang kita tambahkan disini ```-p 5900:5900```  disini kita menggunakan port 5900 jadi tambahkan port ```:5900```
+> Buka IP localhost(```127.0.0.1```):tambahkan port sesuai yang kita tambahkan disini ```-p 5900:5900```  disini kita menggunakan port 5900 jadi tambahkan port ```:5900```
 
- [IP]:[PORT] = ```172.0.0.1:5900```
+ [IP]:[PORT] = ```127.0.0.1:5900```
+
+
+ 
