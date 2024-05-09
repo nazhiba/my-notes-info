@@ -235,3 +235,20 @@ open Terminal
 
 
 
+<h3>9 Mei 2024</h3>
+
+<h6>problem</h6>
+
+Melihat proses selenium yang berada di Docker
+
+<h6>solved</h6>
+
+> <a href="https://docs.docker.com/engine/install/ubuntu/#installation-methods">Buka link untuk menginstall Docker</a>
+
+> <a href="https://www.realvnc.com/en/connect/download/viewer/">Buka link untuk menginstall VNC Viwer</a>
+
+> ```docker run -d -p 4444:4444 -p 5900:5900 --shm-size="2g" selenium/standalone-firefox:4.20.0-20240505``` 
+
+> Buka VNC Viewer
+> Buka IP localhost(```172.0.0.1```):tambahkan port sesuai yang kita tambahkan disini ```-p 5900:5900```  disini kita menggunakan port 5900 jadi tambahkan port ```:5900```
+ [IP]:[PORT] = ```172.0.0.1:5900```
