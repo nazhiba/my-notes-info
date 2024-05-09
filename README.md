@@ -251,4 +251,5 @@ Melihat proses selenium yang berada di Docker
 
 > Buka VNC Viewer
 > Buka IP localhost(```172.0.0.1```):tambahkan port sesuai yang kita tambahkan disini ```-p 5900:5900```  disini kita menggunakan port 5900 jadi tambahkan port ```:5900```
+
  [IP]:[PORT] = ```172.0.0.1:5900```
