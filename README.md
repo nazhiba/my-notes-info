@@ -1,5 +1,14 @@
 # my-notes-info
 ini adalah note saya mengenai semua eror yang pernah saya alami
+<h3>26 Juni 2024</h3>
+
+<h6>problem</h6>
+
+```beberapa paket di termux tidak bisa diinstall```
+
+<h6>solved</h6>
+
+```pkg install tur-repo```lalu coba install kembali
 
 <h3>24 October 2023</h3>
 <h6>problem</h6>
