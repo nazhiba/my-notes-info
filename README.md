@@ -1,7 +1,17 @@
 # my-notes-info
 ini adalah note saya mengenai semua eror yang pernah saya alami
 
-<h3>24 October 2023</h3>
+<h3>17 Agustus 2024</h3>
+<h6>problem</h6>
+
+```flask db init```
+```Error: No such command "db".```
+<h6>solved</h6>
+
+```pip install flask-migrate --upgrade```
+```flask db init```
+<br>
+h3>24 October 2023</h3>
 <h6>problem</h6>
 
 ```python 3.12 eror install openai library```
