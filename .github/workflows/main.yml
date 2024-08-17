@@ -1,0 +1,13 @@
+name: My GitHub Action
+
+on:
+  push:
+    branches:
+      - main
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Xvfb
+        run: sudo apt-get update && sudo apt-get install xvfb
