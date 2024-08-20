@@ -1,5 +1,17 @@
 # my-notes-info
 ini adalah note saya mengenai semua eror yang pernah saya alami
+
+<h3>20 Agustus 2024</h3>
+
+<h6>problem</h6>
+```terjadi error ModuleNotFoundError: No module named 'flask_login'```
+```kodisi lain dimana saat di jalankan langsung exit```
+padahal sudah di install, solusinya jika menggunakan windows
+
+<h6>solved</h6>
+
+```Jalankan program lewat powershell dengan akses administrator```
+
 <h3>26 Juni 2024</h3>
 
 <h6>problem</h6>
