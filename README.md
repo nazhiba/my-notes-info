@@ -2,6 +2,7 @@
 ini adalah note saya mengenai semua eror yang pernah saya alami
 
 <h3>27 Agustus 2024</h3>
+
 ```python
 # Membuat aplikasi Desktop dan terjadi masalah dimana 
 from pydub import AudioSegment
@@ -16,7 +17,6 @@ ffmpeg = "ffmpeg\\bin"
 os.environ["PATH"] = ffmpeg + os.pathsep + os.environ["PATH"]
 # ini akan menambahkan path ke environment variabel Windows
 ```
-
 
 <h3>20 Agustus 2024</h3>
 
