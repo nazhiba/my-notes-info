@@ -1,6 +1,14 @@
 # my-notes-info
 ini adalah note saya mengenai semua eror yang pernah saya alami
 
+<h3>7 Oktober 2024</h3>
+<h6>problem</h6>
+```tikak bisa koneksi dengan adb secara wireless```
+<h6>solved</h6>
+```adb pair IPL:PORT``` (enter and add pairing code)
+```adb connect IP:PORT```
+```adb devices```
+
 <h3>20 Agustus 2024</h3>
 
 <h6>problem</h6>
@@ -64,7 +72,9 @@ h3>24 October 2023</h3>
 <br>
 ```pip install Pillow==9.5.0```
 <br>
-
+solusi lain
+replace ```Image.ANTIALIAS``` with ```Image.Resampling.LANCZOS```
+<br>
 
 <h3>13 November 2023</h3>
 <h6>problem</h6>
