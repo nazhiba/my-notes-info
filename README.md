@@ -9,6 +9,23 @@ ini adalah note saya mengenai semua eror yang pernah saya alami
 ```adb connect IP:PORT```
 ```adb devices```
 
+<h3>27 Agustus 2024</h3>
+
+```python
+# Membuat aplikasi Desktop dan terjadi masalah dimana 
+from pydub import AudioSegment
+ffmpeg = resource_path("ffmpeg\\bin\\ffmpeg.exe")
+AudioSegment.converter = ffmpeg
+#dst. tidak berfungsi
+
+# dirubah dengan
+from pydub import AudioSegment
+import os
+ffmpeg = "ffmpeg\\bin"
+os.environ["PATH"] = ffmpeg + os.pathsep + os.environ["PATH"]
+# ini akan menambahkan path ke environment variabel Windows
+```
+
 <h3>20 Agustus 2024</h3>
 
 <h6>problem</h6>
