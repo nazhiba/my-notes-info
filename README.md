@@ -4,11 +4,13 @@ ini adalah note saya mengenai semua eror yang pernah saya alami
 <h3>7 Oktober 2024</h3>
 <h6>problem</h6>
 
-```tikak bisa koneksi dengan adb secara wireless```
+```tidak bisa koneksi dengan adb secara wireless```
 <h6>solved</h6>
 
 ```adb pair IPL:PORT``` (enter and add pairing code)
+
 ```adb connect IP:PORT```
+
 ```adb devices```
 
 <h3>27 Agustus 2024</h3>
@@ -34,6 +36,7 @@ os.environ["PATH"] = ffmpeg + os.pathsep + os.environ["PATH"]
 
 ```terjadi error ModuleNotFoundError: No module named 'flask_login'```
 ```kodisi lain dimana saat di jalankan langsung exit```
+
 padahal sudah di install, solusinya jika menggunakan windows
 
 <h6>solved</h6>
