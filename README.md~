@@ -1,17 +1,6 @@
 # my-notes-info
 ini adalah note saya mengenai semua eror yang pernah saya alami
 
-<h3>11 Desember 2024</h3>
-<h6>problem</h6>
-```install go deb untuk windows```
-
-- [download](https://github.com/golang/dep/releases)
-
-- rename ke ```deb.exe```
-
-- refrensi [github](https://github.com/golang/dep/issues/2086#issuecomment-455903281)
-
-
 <h3>7 Oktober 2024</h3>
 <h6>problem</h6>
 
