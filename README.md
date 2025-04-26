@@ -1,6 +1,22 @@
 # my-notes-info
 ini adalah note saya mengenai semua eror yang pernah saya alami
 
+<h3>26 April 2025</h3>
+<h6>problem</h6>
+
+```Laptop couldn't connect to the main Wi-Fi after booting, showing "Can't connect to this network". However, it worked fine when using mobile hotspot.```
+
+<h6>solved</h6>
+
+```Logged into Tenda router settings and changed the following:```
+
+```Wireless Channel: Auto → 6```
+
+```Channel Width: Auto → 20MHz```
+
+```After saving and restarting the router, the laptop connected automatically without issues.```
+
+
 <h3>11 Desember 2024</h3>
 <h6>problem</h6>
 ```install go deb untuk windows```
