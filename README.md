@@ -1,6 +1,17 @@
 # my-notes-info
 ini adalah note saya mengenai semua eror yang pernah saya alami
 
+<h3>18 Mei 2025</h3>
+<h6>problem</h6>
+
+```Laptop couldn't connect to the main Wi-Fi again.```
+
+<h6>solved</h6>
+
+```turn off wifi windows```
+
+```turn on wifi windows```
+
 <h3>26 April 2025</h3>
 <h6>problem</h6>
 
