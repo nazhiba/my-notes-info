@@ -1,6 +1,15 @@
 # my-notes-info
 ini adalah note saya mengenai semua eror yang pernah saya alami
 
+<h3>23 Mei 2025</h3>
+<h6>problem</h6>
+
+When running ```whatsapp-web.js``` in a Docker container, it gets stuck at ```whatsapp-bot-app | Mencoba menginisialisasi client WhatsApp...```
+
+<h6>solved</h6>
+
+I'm using Windows 11 and running ```make down; make build; make up```
+
 <h3>18 Mei 2025</h3>
 <h6>problem</h6>
 
