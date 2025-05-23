@@ -1,14 +1,27 @@
 # my-notes-info
 ini adalah note saya mengenai semua eror yang pernah saya alami
 
-<h3>23 Mei 2025</h3>
-<h6>problem</h6>
+<h3>23 May 2025</h3>
+<h6>Problem</h6>
 
-When running ```whatsapp-web.js``` in a Docker container, it gets stuck at ```whatsapp-bot-app | Mencoba menginisialisasi client WhatsApp...```
+When running `whatsapp-web.js` in a Docker container, it gets stuck at `whatsapp-bot-app | Mencoba menginisialisasi client WhatsApp...`.
 
-<h6>solved</h6>
+<h6>Solved</h6>
 
-I'm using Windows 11 and running ```make down; make build; make up```
+I'm using Windows 11 and ran `make down; make build; make up`.
+
+Here's the Makefile I used. I'm not exactly sure why this sequence fixed the issue:)
+
+```
+build:
+	docker compose build
+
+up:
+	docker compose up -d --build --force-recreate
+
+down:
+	docker compose down
+```
 
 <h3>18 Mei 2025</h3>
 <h6>problem</h6>
