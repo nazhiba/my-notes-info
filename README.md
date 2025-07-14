@@ -1,6 +1,15 @@
 # my-notes-info
 ini adalah note saya mengenai semua eror yang pernah saya alami
 
+<h3>14 July 2025</h3>
+<h6>Problem</h6>
+
+When running the application using Docker on a Windows operating system, the `nodejs` container fails to start and displays the error `[dumb-init] /start-vnc.sh: No such file or directory`. This issue is caused by differences in line-ending formats between Windows (CRLF) and the Linux environment inside the container (LF).
+
+<h6>Solved</h6>
+
+Modified the `Dockerfile` to automatically convert the line endings for the `start-vnc.sh` file. The command `RUN sed -i 's/\r$//' /start-vnc.sh` was added immediately after the file is copied into the image. This ensures the script always has the correct format (LF) inside the container, removing the need to manually delete and recreate the file. The user only needs to rebuild the Docker image to apply the fix.
+
 <h3>23 May 2025</h3>
 <h6>Problem</h6>
 
