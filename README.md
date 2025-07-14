@@ -7,7 +7,7 @@ The application experienced periodic crashes (<code>caught signal: 11</code>) af
 <h6>Solved</h6>
 The session refresh logic in main.js was reworked to improve long-term stability. A periodic process now navigates the active browser page to about:blank, which effectively clears its resources and prevents memory leaks without destroying the underlying user session. Following this cleanup, the session is re-validated, and the page is then programmatically directed to its intended URL. This approach ensures the application remains stable and always maintains the correct navigational context after each refresh cycle.
 
-h3>14 July 2025</h3>
+<h3>14 July 2025</h3>
 <h6>Problem</h6>
 When building a Docker image from a Windows host, shell scripts copied into the container fail to execute, often with a "No such file or directory" error. This is caused by a mismatch in line-ending formats between Windows (CRLF) and the container's Linux environment (LF), which renders the scripts unreadable by the Linux shell.
 <h6>Solved</h6>
