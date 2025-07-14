@@ -3,12 +3,15 @@ ini adalah note saya mengenai semua eror yang pernah saya alami
 
 <h3>14 July 2025</h3>
 <h6>Problem</h6>
-
-When running the application using Docker on a Windows operating system, the `nodejs` container fails to start and displays the error `[dumb-init] /start-vnc.sh: No such file or directory`. This issue is caused by differences in line-ending formats between Windows (CRLF) and the Linux environment inside the container (LF).
-
+The application experienced periodic crashes (<code>caught signal: 11</code>) after running for extended periods, indicating a memory leak or instability within the Puppeteer-controlled browser instance. The session refresh mechanism, intended to keep the session alive, introduced further complications: it would either destroy the session entirely (forcing a re-login) or redirect to an incorrect page after the refresh.
 <h6>Solved</h6>
+The session refresh logic in main.js was reworked to improve long-term stability. A periodic process now navigates the active browser page to about:blank, which effectively clears its resources and prevents memory leaks without destroying the underlying user session. Following this cleanup, the session is re-validated, and the page is then programmatically directed to its intended URL. This approach ensures the application remains stable and always maintains the correct navigational context after each refresh cycle.
 
-Modified the `Dockerfile` to automatically convert the line endings for the `start-vnc.sh` file. The command `RUN sed -i 's/\r$//' /start-vnc.sh` was added immediately after the file is copied into the image. This ensures the script always has the correct format (LF) inside the container, removing the need to manually delete and recreate the file. The user only needs to rebuild the Docker image to apply the fix.
+h3>14 July 2025</h3>
+<h6>Problem</h6>
+When building a Docker image from a Windows host, shell scripts copied into the container fail to execute, often with a "No such file or directory" error. This is caused by a mismatch in line-ending formats between Windows (CRLF) and the container's Linux environment (LF), which renders the scripts unreadable by the Linux shell.
+<h6>Solved</h6>
+The Dockerfile was modified to automatically convert script line endings during the image build process. A RUN command utilizing sed was added to strip the carriage return characters (\r) from the affected shell scripts immediately after they are copied into the image. This ensures the scripts use the correct Unix-style (LF) line endings and become executable within the container, fixing the issue permanently without requiring manual file conversion
 
 <h3>23 May 2025</h3>
 <h6>Problem</h6>
