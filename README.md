@@ -1,6 +1,21 @@
 # my-notes-info
 ini adalah note saya mengenai semua eror yang pernah saya alami
 
+<h3>17 July 2025</h3>
+<h6>Problem</h6>
+Some files that are already tracked in the repository (such as configuration or profile files) need to be modified locally to store session data or credentials. However, these local changes must not be committed back to the repository. Using `.gitignore` does not solve this issue, as it is only effective for files that have never been tracked by Git.
+
+<h6>Solved</h6>
+The solution is to use a Git command to mark already-tracked files so that their local changes are ignored. The command used is:
+
+`git update-index --assume-unchanged <file-name>`
+
+This instructs Git to no longer monitor changes to these files in the local working directory. As a result, the local version of the file containing sensitive data can persist without the risk of being committed.
+
+To revert this and have Git track changes to the file again, use the command:
+
+`git update-index --no-assume-unchanged <file-name>`
+
 <h3>14 July 2025</h3>
 <h6>Problem</h6>
 The application experienced periodic crashes (<code>caught signal: 11</code>) after running for extended periods, indicating a memory leak or instability within the Puppeteer-controlled browser instance. The session refresh mechanism, intended to keep the session alive, introduced further complications: it would either destroy the session entirely (forcing a re-login) or redirect to an incorrect page after the refresh.
