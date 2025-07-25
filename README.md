@@ -1,6 +1,23 @@
 # my-notes-info
 ini adalah note saya mengenai semua eror yang pernah saya alami
 
+## 25 July 2025
+**Problem**  
+Docker containers on Server 1 were experiencing high memory consumption, causing performance degradation and potential system instability. The server was running Docker version 27.5.1, while Server 2 was running the newer version 28.1.1+1 with significantly better memory management and resource optimization.
+
+**Solved**  
+The Docker Engine was upgraded from version 27.5.1 to 28.1.1+1 on Server 1 to match Server 2's configuration. The upgrade process involved:
+
+1. Adding the official Docker repository GPG key
+2. Configuring the Docker apt repository for Ubuntu 22.04
+3. Installing the specific Docker version using:
+   ```bash
+   VERSION_STRING=5:28.1.1-1~ubuntu.22.04~jammy
+   sudo apt-get install docker-ce=$VERSION_STRING docker-ce-cli=$VERSION_STRING containerd.io docker-buildx-plugin docker-compose-plugin
+   ```
+
+This upgrade provided improved memory management, better resource utilization, and enhanced stability for containerized applications. The memory consumption issue was resolved, and both servers now run identical Docker versions for consistency across the infrastructure.
+
 <h3>17 July 2025</h3>
 <h6>Problem</h6>
 Some files that are already tracked in the repository (such as configuration or profile files) need to be modified locally to store session data or credentials. However, these local changes must not be committed back to the repository. Using `.gitignore` does not solve this issue, as it is only effective for files that have never been tracked by Git.
