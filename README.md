@@ -2,11 +2,10 @@
 ini adalah note saya mengenai semua eror yang pernah saya alami
 
 ## August 9, 2025
-
-**Problem**
+### Problem
 When I use Duolingo on Linux with the Microsoft Edge browser, there is no sound.
 
-**Solved**
+### Solved
 In the Microsoft Edge browser, navigate to `edge://settings/?search=audio` and select **Block** under the setting `Control if audio and video play automatically on sites`.
 
 ## 25 July 2025
