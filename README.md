@@ -1,6 +1,14 @@
 # my-notes-info
 ini adalah note saya mengenai semua eror yang pernah saya alami
 
+## August 9, 2025
+
+**Problem**
+When I use Duolingo on Linux with the Microsoft Edge browser, there is no sound.
+
+**Solved**
+In the Microsoft Edge browser, navigate to `edge://settings/?search=audio` and select **Block** under the setting `Control if audio and video play automatically on sites`.
+
 ## 25 July 2025
 **Problem**  
 Docker containers on Server 1 were experiencing high memory consumption, causing performance degradation and potential system instability. The server was running Docker version 27.5.1, while Server 2 was running the newer version 28.1.1+1 with significantly better memory management and resource optimization.
